@@ -1,8 +1,0 @@
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\bin\Debug\MQ_Test.exe.config
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\bin\Debug\MQ_Test.exe
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\bin\Debug\MQ_Test.pdb
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\obj\Debug\MQ_Test.csproj.AssemblyReference.cache
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\obj\Debug\MQ_Test.csproj.SuggestedBindingRedirects.cache
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\obj\Debug\MQ_Test.csproj.CoreCompileInputs.cache
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\obj\Debug\MQ_Test.exe
-C:\Users\mohammedqasam\Source\Repos\Public\MQ_Test\obj\Debug\MQ_Test.pdb

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MQ_Test",
+    "\\MQ_Test\\MQ_Test.Business"
   ],
-  "SelectedNode": "\\C:\\Users\\mohammedqasam\\Source\\Repos\\Public",
+  "SelectedNode": "\\MQ_Test.sln",
   "PreviewInSolutionExplorer": false
 }
