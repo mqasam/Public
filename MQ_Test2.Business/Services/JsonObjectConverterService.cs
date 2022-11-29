@@ -1,4 +1,5 @@
 ﻿using MQ_Test2.Business.Interfaces;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace MQ_Test2.Business.Services
 {
     public class JsonObjectConverterService : IJsonObjectConverterService
     {
-        public List<string> ConvertObjects(List<string> jsonObjects)
+        public JObject ConvertObjects(JObject jsonObject)
         {
             throw new NotImplementedException();
         }

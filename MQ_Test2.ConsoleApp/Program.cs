@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MQ_Test2.Business.Services;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 Console.WriteLine("Hello, World!");
 
@@ -8,5 +10,8 @@ Console.WriteLine("Hello, World!");
 // pass object through converter service
 // return and display data
 
+var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\input_mis_data.json");
+JObject inputData = JObject.Parse(File.ReadAllText(jsonPath));
+
 JsonObjectConverterService jsonObjectConverterService = new();
-jsonObjectConverterService.ConvertObjects(new List<string> { "0", "1", "2" });
+jsonObjectConverterService.ConvertObjects(inputData);

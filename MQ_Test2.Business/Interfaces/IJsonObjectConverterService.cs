@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace MQ_Test2.Business.Interfaces
 {
     public interface IJsonObjectConverterService
     {
-        List<string> ConvertObjects(List<string> jsonObjects);
+        JObject ConvertObjects(JObject jsonObject);
     }
 }

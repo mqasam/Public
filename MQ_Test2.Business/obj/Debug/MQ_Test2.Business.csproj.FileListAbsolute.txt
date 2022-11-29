@@ -6,3 +6,6 @@ C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\obj\Debug\MQ_Test2.
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\obj\Debug\CSharp\1033\MQ_Test2.Business.zip
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\obj\Debug\MQ_Test2.Business.dll
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\obj\Debug\MQ_Test2.Business.pdb
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.Business\obj\Debug\MQ_Test2.Business.csproj.CopyComplete
