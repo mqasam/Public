@@ -1,0 +1,17 @@
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.AssemblyInfo.cs
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.exe
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.deps.json
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.runtimeconfig.json
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.dll
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.pdb
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.Business.dll
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.csproj.CopyComplete
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.dll
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\refint\MQ_Test2.ConsoleApp.dll
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.pdb
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.genruntimeconfig.cache
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\ref\MQ_Test2.ConsoleApp.dll

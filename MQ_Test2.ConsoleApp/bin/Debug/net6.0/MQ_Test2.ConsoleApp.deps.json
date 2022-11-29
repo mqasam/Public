@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MQ_Test2.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "MQ_Test2.Business": "1.0.0"
+        },
+        "runtime": {
+          "MQ_Test2.ConsoleApp.dll": {}
+        }
+      },
+      "MQ_Test2.Business/1.0.0": {
+        "runtime": {
+          "MQ_Test2.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MQ_Test2.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQ_Test2.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

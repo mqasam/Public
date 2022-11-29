@@ -4,6 +4,21 @@
     "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.UnitTests\\MQ_Test2.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.Business\\MQ_Test2.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.Business\\MQ_Test2.Business.csproj",
+        "projectName": "MQ_Test2.Business",
+        "projectPath": "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.Business\\MQ_Test2.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.UnitTests\\MQ_Test2.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -34,7 +49,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.Business\\MQ_Test2.Business.csproj": {
+                "projectPath": "C:\\Users\\mohammedqasam\\source\\repos\\Public\\MQ_Test2.Business\\MQ_Test2.Business.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,6 +66,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoFixture.AutoMoq": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
