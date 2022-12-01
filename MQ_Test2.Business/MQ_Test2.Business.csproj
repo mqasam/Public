@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IJsonObjectConverterService.cs" />
+    <Compile Include="Models\MisOutputData.cs" />
+    <Compile Include="Models\MisInputData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\JsonObjectConverterService.cs" />
   </ItemGroup>

@@ -8,7 +8,7 @@ namespace MQ_Test2.Tests
 {
     internal class JsonObjectConverterServiceTests : Tests
     {
-        private List<string> _request;
+        private string _request;
 
         [Test]
         public void Test1()
@@ -22,7 +22,7 @@ namespace MQ_Test2.Tests
 
         private void Stub()
         {
-            _request = new List<string>();
+            _request = string.Empty; 
         }
 
         private List<string> Act()

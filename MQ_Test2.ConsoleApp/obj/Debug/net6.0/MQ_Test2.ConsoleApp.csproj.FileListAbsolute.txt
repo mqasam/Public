@@ -8,6 +8,7 @@ C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.runtimeconfig.json
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.dll
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.ConsoleApp.pdb
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\MQ_Test2.Business.dll
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.csproj.CopyComplete
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.dll
@@ -15,4 +16,3 @@ C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.pdb
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\MQ_Test2.ConsoleApp.genruntimeconfig.cache
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\obj\Debug\net6.0\ref\MQ_Test2.ConsoleApp.dll
-C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.ConsoleApp\bin\Debug\net6.0\Newtonsoft.Json.dll

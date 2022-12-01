@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using MQ_Test2.Business.Models;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace MQ_Test2.Business.Interfaces
 {
     public interface IJsonObjectConverterService
     {
-        JObject ConvertObjects(JObject jsonObject);
+        MisInputData ConvertObjects(string filePath);
     }
 }
