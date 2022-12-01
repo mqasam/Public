@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MQ_Test2.Business.Services;
-using Newtonsoft.Json.Linq;
 
 Console.WriteLine("Hello, World!");
 

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MQ_Test2.Business.Models
 {
@@ -44,25 +41,25 @@ namespace MQ_Test2.Business.Models
         public string ServiceChild { get; set; }
         public string ServiceChildSource { get; set; }
         public bool TopUpFunding { get; set; }
-        public object FundedHours { get; set; }
-        public object HoursAtSetting { get; set; }
-        public object UnitContactTime { get; set; }
+        public int? FundedHours { get; set; }
+        public int? HoursAtSetting { get; set; }
+        public int? UnitContactTime { get; set; }
         public bool SchoolLunchTaken { get; set; }
         public string MealType { get; set; }
         public bool AsylumSeeker { get; set; }
         public string Religion { get; set; }
         public bool EAL { get; set; }
-        public object IsEconomicCriteria { get; set; }
-        public object IsHighLevelSENorDisability { get; set; }
-        public object IsLookedAfterorAdoptedFromCare { get; set; }
-        public object PhoneDetails { get; set; }
+        public bool? IsEconomicCriteria { get; set; }
+        public bool? IsHighLevelSENorDisability { get; set; }
+        public bool? IsLookedAfterorAdoptedFromCare { get; set; }
+        public string PhoneDetails { get; set; }
         public List<AddressDetail> AddressDetails { get; set; }
         public List<ContactDetail> ContactDetails { get; set; }
         public List<SiblingDetail> SiblingDetails { get; set; }
         public List<DisabilityDetail> DisabilityDetails { get; set; }
         public List<LanguageDetail> LanguageDetails { get; set; }
         public List<SENProvisionDetail> SENProvisionDetails { get; set; }
-        public object SENMajorNeedsDetails { get; set; }
+        public bool? SENMajorNeedsDetails { get; set; }
 
         public class AddressDetail
         {
@@ -106,7 +103,7 @@ namespace MQ_Test2.Business.Models
         {
             public int DisabilityId { get; set; }
             public string Disability { get; set; }
-            public object DisabilityName { get; set; }
+            public string DisabilityName { get; set; }
         }
 
         public class LanguageDetail
@@ -114,7 +111,7 @@ namespace MQ_Test2.Business.Models
             public int LanguageUsageId { get; set; }
             public string TypeCode { get; set; }
             public string LanguageCode { get; set; }
-            public object LevelOfLanguage { get; set; }
+            public string LevelOfLanguage { get; set; }
             public string Description { get; set; }
         }
 
@@ -123,8 +120,8 @@ namespace MQ_Test2.Business.Models
             public int ProvisionId { get; set; }
             public string ProvisionTypeCode { get; set; }
             public string StartDate { get; set; }
-            public object ReviewDate { get; set; }
-            public object EndDate { get; set; }
+            public DateTime? ReviewDate { get; set; }
+            public DateTime? EndDate { get; set; }
         }
 
         public class SiblingDetail
