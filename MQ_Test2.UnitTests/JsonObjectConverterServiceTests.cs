@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MQ_Test2.Business.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace MQ_Test2.Tests
 {
     internal class JsonObjectConverterServiceTests : Tests
     {
-        private string _request;
+        private string _filePath;
 
         [Test]
         public void Test1()
@@ -22,12 +23,12 @@ namespace MQ_Test2.Tests
 
         private void Stub()
         {
-            _request = string.Empty; 
+            _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\input_mis_data.json"); 
         }
 
-        private List<string> Act()
+        private MisInputData Act()
         {
-            return JsonObjectConverterService.ConvertObjects(_request);
+            return JsonObjectConverterService.ConvertObjects(_filePath);
         }
     }
 }

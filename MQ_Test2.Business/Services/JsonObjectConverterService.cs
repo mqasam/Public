@@ -15,16 +15,13 @@ namespace MQ_Test2.Business.Services
     {
         public MisInputData ConvertObjects(string filePath)
         {
-            //Create model for objects
             // deserialize JSON directly from a file
             using (StreamReader file = File.OpenText(filePath))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 MisInputData misInputData = (MisInputData)serializer.Deserialize(file, typeof(MisInputData));
+                return misInputData;
             }
-
-
-            throw new NotImplementedException();
         }
     }
 }
