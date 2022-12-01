@@ -10,5 +10,5 @@ Console.WriteLine("Hello, World!");
 
 var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\input_mis_data.json");
 
-JsonObjectConverterService jsonObjectConverterService = new();
-jsonObjectConverterService.ConvertObjects(jsonPath);
+JsonToObjectConverterService jsonToObjectConverterService = new();
+jsonToObjectConverterService.Convert(jsonPath);

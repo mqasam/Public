@@ -5,9 +5,9 @@ using System.IO;
 
 namespace MQ_Test2.Business.Services
 {
-    public class JsonObjectConverterService : IJsonObjectConverterService
+    public class JsonToObjectConverterService : IJsonToObjectConverterService
     {
-        public MisInputData ConvertObjects(string filePath)
+        public MisInputData Convert(string filePath)
         {
             // deserialize JSON directly from a file
             using (StreamReader file = File.OpenText(filePath))

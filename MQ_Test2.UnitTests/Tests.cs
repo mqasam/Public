@@ -5,8 +5,10 @@ namespace MQ_Test2.Tests
     {
         protected Tests()
         {
-            JsonObjectConverterService = new JsonObjectConverterService();
+            JsonToObjectConverterService = new JsonToObjectConverterService();
+            ObjectToOutputConverterService = new ObjectToOutputConverterService();
         }
-        protected IJsonObjectConverterService JsonObjectConverterService { get; }
+        protected IJsonToObjectConverterService JsonToObjectConverterService { get; }
+        protected IObjectToOutputConverterService ObjectToOutputConverterService { get; }
     }
 }
