@@ -4,46 +4,28 @@ namespace MQ_Test2.Tests
 {
     internal class AddressServiceTests : Tests
     {
-        private string _filePath;
+        private string _number;
+        private string _street;
 
         [Test]
-        public void FileFound_WhenPathProvided_ExpectSuccess()
+        public void AddressLine1Created_WhenDetailsProvided_ExpectSuccess()
         {
             Stub();
 
-            Assert.That(new FileInfo(_filePath), Does.Exist);
-        }
+            Act();
 
-        [Test]
-        public void ObjectsReturnedTypeIsCorrect_WhenJsonFileIsProvided_ExpectSuccess()
-        {
-            Stub();
-
-            var request = Act();
-
-            Assert.IsInstanceOf<MisInputData>(request);
-            Assert.That(request, Is.TypeOf<MisInputData>());
-        }
-
-        [Test]
-        public void ObjectConvertedToCorrectOutput_WhenObjectsProvided_ExpectSuccess()
-        {
-            Stub();
-
-            var request = Act();
-
-            Assert.IsInstanceOf<MisInputData>(request);
-            Assert.That(request, Is.TypeOf<MisInputData>());
+            Assert.Pass();
         }
 
         private void Stub()
         {
-            _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\input_mis_data.json"); 
+            _number = string.Empty;
+            _street = string.Empty;
         }
 
-        private MisInputData Act()
+        private string Act()
         {
-            return JsonToObjectConverterService.Convert(_filePath);
+            return AddressService.CreateAddressLine1(_number, _street);
         }
     }
 }

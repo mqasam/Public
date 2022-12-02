@@ -35,7 +35,7 @@ namespace MQ_Test2.Business.Services
                 ever_in_care = inputData.IsLookedAfterorAdoptedFromCare.ToString(),
                 enrolment_status = inputData.EnrolementStatus.ToString()
             };
-
+            return outputData;
 
         }
     }

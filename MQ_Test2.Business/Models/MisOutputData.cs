@@ -42,7 +42,7 @@ namespace MQ_Test2.Business.Models
         public string county { get; set; }
         public string country { get; set; }
         public DateTime start_date { get; set; }
-        public DateTime end_date { get; set; }`
+        public DateTime end_date { get; set; }
         public string home_language_code { get; set; }
         public string home_language_name { get; set; }
         public string first_language_code { get; set; }
