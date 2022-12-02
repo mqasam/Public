@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,7 +25,7 @@ namespace MQ_Test2.Business.Models
         public string upn { get; set; }
         public string former_upn { get; set; }
         public string uln { get; set; }
-        public string is_eal { get; set; }
+        public bool is_eal { get; set; }
         public string free_meal { get; set; }
         public string free_meal_6 { get; set; }
         public string fsm_review_date { get; set; }
@@ -40,9 +41,8 @@ namespace MQ_Test2.Business.Models
         public string town_city { get; set; }
         public string county { get; set; }
         public string country { get; set; }
-        public string postcode { get; set; }
         public DateTime start_date { get; set; }
-        public DateTime end_date { get; set; }
+        public DateTime end_date { get; set; }`
         public string home_language_code { get; set; }
         public string home_language_name { get; set; }
         public string first_language_code { get; set; }

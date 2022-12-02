@@ -54,14 +54,17 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAddressService.cs" />
     <Compile Include="Interfaces\IJsonToObjectConverterService.cs" />
     <Compile Include="Interfaces\IObjectToOutputConverterService.cs" />
     <Compile Include="Models\MisOutputData.cs" />
     <Compile Include="Models\MisInputData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AddressService.cs" />
     <Compile Include="Services\JsonToObjectConverterService.cs" />
     <Compile Include="Services\ObjectToOutputConverterService.cs" />
   </ItemGroup>
