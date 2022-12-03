@@ -6,8 +6,8 @@ namespace MQ_Test2.Tests
         protected Tests()
         {
             JsonToObjectConverterService = new JsonToObjectConverterService();
-            ObjectToOutputConverterService = new ObjectToOutputConverterService();
             AddressService = new AddressService();
+            ObjectToOutputConverterService = new ObjectToOutputConverterService(AddressService);
         }
         protected IJsonToObjectConverterService JsonToObjectConverterService { get; }
         protected IObjectToOutputConverterService ObjectToOutputConverterService { get; }

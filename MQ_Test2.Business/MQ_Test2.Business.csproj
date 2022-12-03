@@ -70,7 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
-    <None Include="Class1.cs" />
     <None Include="packages.config" />
     <None Include="ProjectTemplate.csproj" />
     <None Include="MQ_Test2.Business.ico" />

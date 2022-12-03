@@ -6,21 +6,24 @@ namespace MQ_Test2.Tests
     {
         private string _number;
         private string _street;
+        private string _addressLine1;
 
         [Test]
         public void AddressLine1Created_WhenDetailsProvided_ExpectSuccess()
         {
             Stub();
 
-            Act();
+            var addressLine1 = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<string>(addressLine1);
+            Assert.AreEqual(_addressLine1, addressLine1);
         }
 
         private void Stub()
         {
-            _number = string.Empty;
-            _street = string.Empty;
+            _number = "10";
+            _street = "Test Street";
+            _addressLine1 = _number + " " + _street;
         }
 
         private string Act()

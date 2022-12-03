@@ -41,6 +41,7 @@ namespace MQ_Test2.Business.Models
         public string town_city { get; set; }
         public string county { get; set; }
         public string country { get; set; }
+        public string postcode { get; set; }
         public DateTime start_date { get; set; }
         public DateTime end_date { get; set; }
         public string home_language_code { get; set; }

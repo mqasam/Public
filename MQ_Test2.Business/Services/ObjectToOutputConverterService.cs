@@ -10,6 +10,13 @@ namespace MQ_Test2.Business.Services
 {
     public class ObjectToOutputConverterService : IObjectToOutputConverterService
     {
+        private IAddressService _addressService;
+
+        public ObjectToOutputConverterService(IAddressService addressService)
+        {
+            _addressService = addressService;
+        }
+
         public MisOutputData Convert(MisInputData inputData)
         {
             MisOutputData outputData = new MisOutputData
@@ -29,12 +36,19 @@ namespace MQ_Test2.Business.Services
                 former_upn = inputData.FormerUPN,
                 uln = inputData.ULN,
                 is_eal = inputData.EAL,
-                fsm_review_date = inputData.SENProvisionDetails.FirstOrDefault().ReviewDate.ToString(),
                 ethnicity_code = inputData.Ethnicity,
-                service_child = bool.Parse(inputData.ServiceChild),
-                ever_in_care = inputData.IsLookedAfterorAdoptedFromCare.ToString(),
-                enrolment_status = inputData.EnrolementStatus.ToString()
+                enrolment_status = inputData.EnrolementStatus.ToString(),
+                start_date = DateTime.Parse(inputData.DateOfEntry)
             };
+
+            outputData.address_line_1 = _addressService.CreateAddressLine1(inputData.AddressDetails.FirstOrDefault().Number, inputData.AddressDetails.FirstOrDefault().Street);
+            outputData.town_city = _addressService.CreateTownCity(inputData.AddressDetails.FirstOrDefault().Town, "");
+            outputData.county = _addressService.CreateCounty(inputData.AddressDetails.FirstOrDefault().County);
+            outputData.country = _addressService.CreateCountry(inputData.AddressDetails.FirstOrDefault().Country);
+            outputData.postcode = _addressService.CreatePostcode(inputData.AddressDetails.FirstOrDefault().PostCode);
+
+
+
             return outputData;
 
         }
