@@ -7,18 +7,19 @@ namespace MQ_Test2.Tests
         private string _postcode;
 
         [Test]
-        public void AddressPostcodeCreated_WhenDetailProvided_ExpectSuccess()
+        public void AddressPostcodeCreated_WhenPostcodeProvided_ExpectSuccess()
         {
             Stub();
 
-            Act();
+            var postcode = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<string>(postcode);
+            Assert.AreEqual(postcode, _postcode);
         }
 
         private void Stub()
         {
-            _postcode = string.Empty;
+            _postcode = "T35 7PC";
         }
 
         private string Act()

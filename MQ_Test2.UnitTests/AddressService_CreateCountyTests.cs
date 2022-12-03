@@ -7,18 +7,19 @@ namespace MQ_Test2.Tests
         private string _country;
 
         [Test]
-        public void AddressLine1Created_WhenDetailsProvided_ExpectSuccess()
+        public void AddressCountryCreated_WhenCountryProvided_ExpectSuccess()
         {
             Stub();
 
-            Act();
+            var country = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<string>(country);
+            Assert.AreEqual(country, _country);
         }
 
         private void Stub()
         {
-            _country = string.Empty;
+            _country = "PK";
         }
 
         private string Act()

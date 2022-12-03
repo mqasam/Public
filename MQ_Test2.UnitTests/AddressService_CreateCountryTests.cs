@@ -11,14 +11,15 @@ namespace MQ_Test2.Tests
         {
             Stub();
 
-            Act();
+            var county = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<string>(county);
+            Assert.AreEqual(county, _country);
         }
 
         private void Stub()
         {
-            _country = string.Empty;
+            _country = "WM";
         }
 
         private string Act()
