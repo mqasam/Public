@@ -2,10 +2,10 @@
 
 namespace MQ_Test2.Tests
 {
-    internal class AddressServiceTests : Tests
+    internal class AddressService_CreateTownCityTests : Tests
     {
-        private string _number;
-        private string _street;
+        private string _town;
+        private string _city;
 
         [Test]
         public void AddressLine1Created_WhenDetailsProvided_ExpectSuccess()
@@ -19,13 +19,13 @@ namespace MQ_Test2.Tests
 
         private void Stub()
         {
-            _number = string.Empty;
-            _street = string.Empty;
+            _town = string.Empty;
+            _city = string.Empty;
         }
 
         private string Act()
         {
-            return AddressService.CreateAddressLine1(_number, _street);
+            return AddressService.CreateTownCity(_town, _city);
         }
     }
 }
