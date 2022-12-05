@@ -11,6 +11,7 @@ namespace MQ_Test2.Tests
             ServiceChildService = new ServiceChildService();
             LanguageDetailsService = new LanguageDetailsService();
             EthnicityMapperService = new EthnicityMapperService();
+            YearGroupService = new YearGroupService();
             ObjectToOutputConverterService = new ObjectToOutputConverterService(AddressService, SENProvisionDetailsService, ServiceChildService, LanguageDetailsService, EthnicityMapperService);
             Builder = new Fixture();
         }
@@ -21,6 +22,7 @@ namespace MQ_Test2.Tests
         protected IServiceChildService ServiceChildService { get; }
         protected ILanguageDetailsService LanguageDetailsService { get; }
         protected IEthnicityMapperService EthnicityMapperService { get; }
+        protected IYearGoupService YearGroupService { get; }
         protected IFixture Builder { get; }
     }
 }

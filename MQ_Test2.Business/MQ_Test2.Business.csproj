@@ -65,6 +65,7 @@
     <Compile Include="Interfaces\IObjectToOutputConverterService.cs" />
     <Compile Include="Interfaces\ISENProvisionDetailsService.cs" />
     <Compile Include="Interfaces\IServiceChildService.cs" />
+    <Compile Include="Interfaces\IYearGoupService.cs" />
     <Compile Include="Models\MisOutputData.cs" />
     <Compile Include="Models\MisInputData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Services\ObjectToOutputConverterService.cs" />
     <Compile Include="Services\SENProvisionDetailsService.cs" />
     <Compile Include="Services\ServiceChildService.cs" />
+    <Compile Include="Services\YearGroupService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
