@@ -1,10 +1,7 @@
 ﻿using MQ_Test2.Business.Interfaces;
 using MQ_Test2.Business.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MQ_Test2.Business.Services
 {
@@ -46,15 +43,15 @@ namespace MQ_Test2.Business.Services
                 former_last_name = inputData.FormerSurname,
                 gender = inputData.Gender,
                 year_code = inputData.Year,
-                dob = DateTime.Parse(inputData.DateOfBirth),
+                dob = DateTime.Parse(inputData.DateOfBirth).ToString("dd/MM/yyyy HH:mm:ss"),
                 upn = inputData.UPN,
                 former_upn = inputData.FormerUPN,
                 uln = inputData.ULN,
                 is_eal = inputData.EAL,
                 ethnicity_code = inputData.Ethnicity,
                 enrolment_status = inputData.EnrolementStatus.ToString(),
-                start_date = DateTime.Parse(inputData.DateOfEntry),
-                ever_in_care = inputData.IsLookedAfterorAdoptedFromCare.Value,
+                start_date = DateTime.Parse(inputData.DateOfEntry).ToString("dd/MM/yyyy HH:mm:ss"),
+                ever_in_care = inputData.IsLookedAfterorAdoptedFromCare,
                 looked_after = inputData.IsLookedAfterorAdoptedFromCare != null ? true : false, // had a few ways of determining this including using contact details to check for priority 1 and if that contact has parental responsibilities but would need thinking about if the person was fostered then the foster mother/father would have parental responsibilities (would be worth bringing this up when it came to it to see best way of approaching this)
             };
 

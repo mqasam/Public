@@ -1,5 +1,4 @@
-﻿using MQ_Test2.Business.Models;
-
+﻿
 namespace MQ_Test2.Tests
 {
     internal class SENProvisionDetailsService_CreateProvisionTypeCodeTests : Tests

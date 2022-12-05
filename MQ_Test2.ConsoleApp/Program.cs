@@ -20,14 +20,14 @@ Console.WriteLine("Hello, World!");
 var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\input_mis_data.json");
 
 JsonToObjectConverterService jsonToObjectConverterService = new();
-var outputData = jsonToObjectConverterService.Convert(jsonPath);
+var inputData = jsonToObjectConverterService.Convert(jsonPath);
 
-ObjectToOutputConverterService objectToOutputConverterService = new ObjectToOutputConverterService(addressService, senProvisionDetailsService, serviceChildService, languageDetailsService, mapperService, yearGoupService);
-var consoleData = objectToOutputConverterService.Convert(outputData);
+ObjectToOutputConverterService objectToOutputConverterService = new(addressService, senProvisionDetailsService, serviceChildService, languageDetailsService, mapperService, yearGoupService);
+var outputData = objectToOutputConverterService.Convert(inputData);
 
 Console.WriteLine("Input data has been converted. Here is the output:");
 
-string jsonData = JsonConvert.SerializeObject(consoleData);
+string jsonData = JsonConvert.SerializeObject(outputData);
 
 Console.Write(jsonData);
 
