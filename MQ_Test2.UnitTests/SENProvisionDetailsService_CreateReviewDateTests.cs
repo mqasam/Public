@@ -12,9 +12,10 @@ namespace MQ_Test2.Tests
         {
             Stub();
 
-            Act();
+            var reviewDate = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<DateTime>(reviewDate);
+            Assert.AreEqual(_reviewDate, reviewDate);
         }
 
         [Test]
@@ -22,9 +23,10 @@ namespace MQ_Test2.Tests
         {
             _reviewDate = null;
 
-            Act();
+            var reviewDate = Act();
 
-            Assert.Pass();
+            Assert.IsNull(reviewDate);
+            Assert.AreEqual(_reviewDate, reviewDate);
         }
 
         private void Stub()

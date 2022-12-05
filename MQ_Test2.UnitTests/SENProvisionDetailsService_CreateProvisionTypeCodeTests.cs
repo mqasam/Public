@@ -12,9 +12,10 @@ namespace MQ_Test2.Tests
         {
             Stub();
 
-            Act();
+            var provisionTypeCode = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<string>(provisionTypeCode);
+            Assert.AreEqual(_provisionTypeCode, provisionTypeCode);
         }
 
         private void Stub()

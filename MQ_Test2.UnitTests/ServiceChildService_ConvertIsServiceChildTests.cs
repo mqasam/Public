@@ -12,29 +12,32 @@ namespace MQ_Test2.Tests
         {
             Stub();
 
-            Act();
+            var isServiceChild = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<bool>(isServiceChild);
+            Assert.AreEqual(false, isServiceChild);
         }
 
         [Test]
         public void IsChildServiceConverted_WhenChildServiceEqualsY_ExpectSuccess()
         {
-            Stub();
+            _isServiceChild = "Y";
 
-            Act();
+            var isServiceChild = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<bool>(isServiceChild);
+            Assert.AreEqual(true, isServiceChild);
         }
 
         [Test]
         public void IsChildServiceConverted_WhenChildServiceNotProvided_ExpectSuccess()
         {
-            Stub();
+            _isServiceChild = String.Empty;
 
-            Act();
+            var isServiceChild = Act();
 
-            Assert.Pass();
+            Assert.IsInstanceOf<bool>(isServiceChild);
+            Assert.AreEqual(false, isServiceChild);
         }
 
         private void Stub()
