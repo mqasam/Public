@@ -8,6 +8,6 @@ namespace MQ_Test2.Business.Interfaces
 {
     public interface IYearGoupService
     {
-        string CreateSourceId(DateTime dob);
+        string CreateSourceId(DateTime dateOfEntry, int currentSchoolYear);
     }
 }
