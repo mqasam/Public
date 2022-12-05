@@ -19,7 +19,7 @@ namespace MQ_Test2.Tests
 
         private void Stub()
         {
-            _request = new MisInputData();
+            _request = Builder.Build<MisInputData>().With(x=>x.DateOfEntry, DateTime.Now.ToString()).Create();
         }
 
         private MisOutputData Act()

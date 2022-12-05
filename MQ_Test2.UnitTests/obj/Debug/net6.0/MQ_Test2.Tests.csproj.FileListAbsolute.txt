@@ -102,3 +102,4 @@ C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.UnitTests\obj\Debug\net6.0\r
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.UnitTests\obj\Debug\net6.0\MQ_Test2.Tests.pdb
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.UnitTests\obj\Debug\net6.0\MQ_Test2.Tests.genruntimeconfig.cache
 C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.UnitTests\obj\Debug\net6.0\ref\MQ_Test2.Tests.dll
+C:\Users\mohammedqasam\source\repos\Public\MQ_Test2.UnitTests\bin\Debug\net6.0\Fare.dll

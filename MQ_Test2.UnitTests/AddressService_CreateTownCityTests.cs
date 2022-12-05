@@ -28,7 +28,7 @@ namespace MQ_Test2.Tests
             var townCity = Act();
 
             Assert.IsInstanceOf<string>(townCity);
-            Assert.AreEqual(townCity, _townCity);
+            Assert.AreEqual(townCity, _town);
         }
 
         [Test]
@@ -40,7 +40,7 @@ namespace MQ_Test2.Tests
             var townCity = Act();
 
             Assert.IsInstanceOf<string>(townCity);
-            Assert.AreEqual(townCity, _townCity);
+            Assert.AreEqual(townCity, _city);
         }
 
         private void Stub()

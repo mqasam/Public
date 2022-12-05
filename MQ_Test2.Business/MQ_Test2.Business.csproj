@@ -59,14 +59,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IAddressService.cs" />
+    <Compile Include="Interfaces\IEthnicityMapperService.cs" />
     <Compile Include="Interfaces\IJsonToObjectConverterService.cs" />
+    <Compile Include="Interfaces\ILanguageDetailsService.cs" />
     <Compile Include="Interfaces\IObjectToOutputConverterService.cs" />
+    <Compile Include="Interfaces\ISENProvisionDetailsService.cs" />
+    <Compile Include="Interfaces\IServiceChildService.cs" />
     <Compile Include="Models\MisOutputData.cs" />
     <Compile Include="Models\MisInputData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AddressService.cs" />
+    <Compile Include="Services\EthnicityMapperService.cs" />
     <Compile Include="Services\JsonToObjectConverterService.cs" />
+    <Compile Include="Services\LanguageDetailsService.cs" />
     <Compile Include="Services\ObjectToOutputConverterService.cs" />
+    <Compile Include="Services\SENProvisionDetailsService.cs" />
+    <Compile Include="Services\ServiceChildService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />

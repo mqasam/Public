@@ -28,12 +28,12 @@ namespace MQ_Test2.Business.Models
         public bool is_eal { get; set; }
         public string free_meal { get; set; }
         public string free_meal_6 { get; set; }
-        public string fsm_review_date { get; set; }
+        public DateTime? fsm_review_date { get; set; }
         public string ethnicity_code { get; set; }
         public string is_pp { get; set; }
         public bool service_child { get; set; }
         public bool looked_after { get; set; }
-        public string ever_in_care { get; set; }
+        public bool ever_in_care { get; set; }
         public string sen_category { get; set; }
         public string enrolment_status { get; set; }
         public string address_line_1 { get; set; }
