@@ -21,7 +21,7 @@ namespace MQ_Test2.Business.Models
         public string gender { get; set; }
         public string year_code { get; set; }
         public string year_group_source_id { get; set; }
-        public string dob { get; set; }
+        public DateTime? dob { get; set; }
         public string upn { get; set; }
         public string former_upn { get; set; }
         public string uln { get; set; }
@@ -30,7 +30,7 @@ namespace MQ_Test2.Business.Models
         public string free_meal_6 { get; set; }
         public DateTime? fsm_review_date { get; set; }
         public string ethnicity_code { get; set; }
-        public string is_pp { get; set; }
+        public string is_pp { get; set; } = false;
         public bool service_child { get; set; }
         public bool looked_after { get; set; }
         public bool ever_in_care { get; set; }

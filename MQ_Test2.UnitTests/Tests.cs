@@ -12,7 +12,7 @@ namespace MQ_Test2.Tests
             LanguageDetailsService = new LanguageDetailsService();
             EthnicityMapperService = new EthnicityMapperService();
             YearGroupService = new YearGroupService();
-            ObjectToOutputConverterService = new ObjectToOutputConverterService(AddressService, SENProvisionDetailsService, ServiceChildService, LanguageDetailsService, EthnicityMapperService);
+            ObjectToOutputConverterService = new ObjectToOutputConverterService(AddressService, SENProvisionDetailsService, ServiceChildService, LanguageDetailsService, EthnicityMapperService, YearGroupService);
             Builder = new Fixture();
         }
         protected IJsonToObjectConverterService JsonToObjectConverterService { get; }
